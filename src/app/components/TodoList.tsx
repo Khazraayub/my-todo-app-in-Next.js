@@ -57,7 +57,7 @@ const TodoList = () => {
                 type="text"
                 value={inputValue}
                 onChange={(e) => setInputValue(e.target.value)}
-                className="flex-grow p-2 border border-grey-400 rounded-lg"
+                className="flex-grow p-2 border border-grey-400 rounded-lg text-black"
                 placeholder="Add a new task ...."
               />
               <button
